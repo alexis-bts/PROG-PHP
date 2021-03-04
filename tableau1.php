@@ -8,8 +8,8 @@
  	<UL>
           <?php
           	$tab=file("tableau-10.txt");
-          	for ($i=0 ; $i < count($tab) ; $i++) {
-            	echo "$tab[$i]"."<br />";
+          	for ($j=0 ; $j < count($tab) ; $j++) {
+            	echo "$tab[$j]"."<br />";
           	}
           ?>
     </UL>
